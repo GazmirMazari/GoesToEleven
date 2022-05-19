@@ -30,7 +30,6 @@ func formHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	if r.URL.Path != "/form" {
 		http.Error(w, "404 not found", http.StatusNotFound)
-
 		return
 	}
 
